@@ -1,0 +1,14 @@
+@mixin transition($time, $ease){
+	transition: all $time $ease;
+}
+@mixin marginh($bottom){
+	margin-bottom: $bottom;
+}
+@mixin paddingX($count){
+	padding-left: $count !important;
+	padding-right: $count !important;
+}
+@mixin paddingY($nubm){
+	padding-top: $nubm !important;
+	padding-bottom: $nubm !important;
+}
